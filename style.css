@@ -198,18 +198,21 @@ See the 2 styles below for an alternative approach using animations.
 
 .end-game-text {
   font-size: 48px;
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Rubik Doodle Shadow', system-ui;
   text-transform: uppercase;
+  color: blue;
 }
 
 .btn {
   font-size: 24px;
-  font-family: 'Darker Grotesque', sans-serif;
+  font-weight: 900;
+  font-family: 'Rubik Scribble', system-ui;
   padding: 4px 20px 8px 20px;
   /* width: 50%; */
   cursor: pointer;
   text-transform: uppercase;
-  border: 2px solid rgb(0, 23, 50);
+  border: 2px dashed rgb(67, 170, 7);
+  color: blue;
 }
 
 .btn:hover {
